@@ -1,0 +1,5 @@
+/* Add application styles & imports to this file! */
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+body {
+  background-image: linear-gradient(to right,#6fa0fa, #7d77ec);
+}

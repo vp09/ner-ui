@@ -1,0 +1,37 @@
+<body>
+  <!-- <hello name="{{ name }}"></hello>
+  <p>This is app component window.</p> -->
+  <!-- <button>click here</button> -->
+  <mat-toolbar color="primary" class="ner-nav">
+    <mat-toolbar-row>
+      <span>My App</span>
+
+      <button mat-icon-button>
+        <mat-icon>menu</mat-icon>
+      </button>
+
+      <button
+        mat-stroked-button
+        color="warn"
+        class="button-get-started"
+        (click)="openCloseUI()"
+      >
+        Get Started
+      </button>
+      <button
+        mat-stroked-button
+        color="accent"
+        class="button-submit"
+        (click)="getNER()"
+      >
+        Submit
+      </button>
+    </mat-toolbar-row></mat-toolbar
+  >
+  <div *ngIf="!shouldOpen">
+    <app-welcomepage></app-welcomepage>
+  </div>
+  <div *ngIf="shouldOpen">
+    <app-ner></app-ner>
+  </div>
+</body>

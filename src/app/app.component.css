@@ -1,0 +1,16 @@
+body {
+  background-image: linear-gradient(to right, #bed0f1, #a8a4e9);
+  font-family: Lato;
+}
+.ner-nav {
+  background-image: linear-gradient(to right, #bed0f1, #a8a4e9);
+  /* max-width: 90%; */
+}
+.button-get-started {
+  position: absolute;
+  right: 8rem;
+}
+.button-submit {
+  position: absolute;
+  right: 2rem;
+}
